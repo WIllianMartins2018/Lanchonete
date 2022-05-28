@@ -41,7 +41,7 @@ namespace LanchesWill.Models
         public string ImagemThumbnailUrl { get; set; }
 
         [Display(Name = "Preferido ?")]
-        public bool IsLanchePreferio { get; set; }
+        public bool IsLanchePreferido { get; set; }
 
         [Display(Name = "Estoque")]
         public bool EmEstoque { get; set; }
