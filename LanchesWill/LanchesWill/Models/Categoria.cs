@@ -16,7 +16,7 @@ namespace LanchesWill.Models
 
         [StringLength(200, ErrorMessage = "O tamanho máximo é 200")]
         [Required(ErrorMessage = "Informe a Descrição")]
-        [Display(Name = "Nome")]
+        [Display(Name = "Descrição")]
         public string Descricao { get; set; }
 
         public List<Lanche> Lanches { get; set; }   
