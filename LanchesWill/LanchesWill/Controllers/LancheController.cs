@@ -14,14 +14,14 @@ namespace LanchesWill.Controllers
 
         public IActionResult List()
         {
-            ViewData["Titulo"] = "Todos os Lanches";
-            ViewData["Data"] = DateTime.Now;
+// ViewData["Titulo"] = "Todos os Lanches";
+  //          ViewData["Data"] = DateTime.Now;
 
             var lanches = _lancheRepository.Lanches;
             var totalLanches = lanches.Count();
 
-            ViewBag.Total = "Total de Lanches: ";
-            ViewBag.TotalLanches = totalLanches;
+    //        ViewBag.Total = "Total de Lanches: ";
+      //      ViewBag.TotalLanches = totalLanches;
 
             return View(lanches);
         }
