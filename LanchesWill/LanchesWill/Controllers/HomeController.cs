@@ -11,11 +11,7 @@ namespace LanchesWill.Controllers
         {
             return View();
         }
-        public IActionResult Demo()
-        {
-            return View();
-        }
-
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
