@@ -1,4 +1,5 @@
 ﻿using LanchesWill.Repositories.Interfaces;
+using LanchesWill.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesWill.Controllers
@@ -14,16 +15,13 @@ namespace LanchesWill.Controllers
 
         public IActionResult List()
         {
-// ViewData["Titulo"] = "Todos os Lanches";
-  //          ViewData["Data"] = DateTime.Now;
+            var lanchesListViewModel = new LancheListViewModel();
 
-            var lanches = _lancheRepository.Lanches;
-            var totalLanches = lanches.Count();
+            lanchesListViewModel.Lanches = _lancheRepository.Lanches;
+            lanchesListViewModel.CategoriaAtual = "Categoria Atual";
 
-    //        ViewBag.Total = "Total de Lanches: ";
-      //      ViewBag.TotalLanches = totalLanches;
+            return View(lanchesListViewModel);
 
-            return View(lanches);
         }
     }
 }

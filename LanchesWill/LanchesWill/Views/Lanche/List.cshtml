@@ -1,14 +1,14 @@
-﻿@model IEnumerable<LanchesWill.Models.Lanche>
+﻿@model LancheListViewModel
 
 <div>
-    <h2>Todos os Lanches</h2>
+    <h2>@Model.CategoriaAtual</h2>
 </div>
 
 <hr />
 
 <div class="container"> 
     <div class="row">
-        @foreach (var lanche in Model) 
+        @foreach (var lanche in Model.Lanches)
         {
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <p><img src="@lanche.ImagemUrl" class="img-fluid"/></p>

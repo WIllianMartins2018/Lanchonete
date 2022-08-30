@@ -9469,11 +9469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Willian Martins\\Desktop\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
+      "projectUniqueName": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
       "projectName": "LanchesWill",
-      "projectPath": "C:\\Users\\Willian Martins\\Desktop\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
+      "projectPath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
       "packagesPath": "C:\\Users\\Willian Martins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Willian Martins\\Desktop\\PROJETOS\\LanchesWill\\LanchesWill\\obj\\",
+      "outputPath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Willian Martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
