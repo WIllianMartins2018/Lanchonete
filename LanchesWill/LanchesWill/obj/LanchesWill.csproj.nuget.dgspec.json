@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj": {}
+    "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj": {
+    "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
+        "projectUniqueName": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
         "projectName": "LanchesWill",
-        "projectPath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
+        "projectPath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
         "packagesPath": "C:\\Users\\Willian Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS\\PROJETOS\\LanchesWill\\LanchesWill\\obj\\",
+        "outputPath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Willian Martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.9, )"
             }
           },
           "imports": [
