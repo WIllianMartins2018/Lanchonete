@@ -1,4 +1,5 @@
 ﻿using LanchesWill.Context;
+using LanchesWill.Models;
 using LanchesWill.Repositories;
 using LanchesWill.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -22,8 +23,8 @@ public class Startup
 
         services.AddTransient<ILancheRespository, LancheRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
-
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
         services.AddControllersWithViews();
 
