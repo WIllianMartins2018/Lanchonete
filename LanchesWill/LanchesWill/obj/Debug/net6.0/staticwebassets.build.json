@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e/95FcWC+WK2MClyzcJ0xySrGyQ+QObBo6Tk09SIWZs=",
+  "Hash": "/XNw7ylV58qPWaVisOLUD/AF2qHtFRfA0sIfdIEPrmk=",
   "Source": "LanchesWill",
   "BasePath": "_content/LanchesWill",
   "Mode": "Default",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carousel3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\Full-Cart-icon.png",
+      "SourceId": "LanchesWill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\",
+      "BasePath": "_content/LanchesWill",
+      "RelativePath": "images/Full-Cart-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Full-Cart-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\remove.png",
+      "SourceId": "LanchesWill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\",
+      "BasePath": "_content/LanchesWill",
+      "RelativePath": "images/remove.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\remove.png"
     },
     {
       "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\js\\site.js",
