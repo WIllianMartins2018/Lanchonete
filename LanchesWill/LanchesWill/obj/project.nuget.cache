@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IDeQFMII15d58BR+FCq6N1kA1NbOruvVw7wTvH4OEtW/NDdvLr+e1GVjyaabw0ik12SpDANhR7K7NDaN2O8Ktg==",
+  "dgSpecHash": "2znbDvVsz5bKSh9PCCyF+RsM+YkvgQTPx5Ige2mJ2qV26Rh6zb1KesBmrvsh1pQ+rCs4+Pl9JmopZiCMXcik1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
+  "projectFilePath": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\LanchesWill.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Willian Martins\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Willian Martins\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
