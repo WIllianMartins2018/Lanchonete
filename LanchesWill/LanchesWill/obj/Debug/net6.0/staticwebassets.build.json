@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "txU1uZCwJs6oehflPcDrpEEMKCwbJAJufIq5bGi2PlM=",
+  "Hash": "mO5+5NLHkWewqYOb4Ie58UlL+hlFCh5VKDwPOv8agoA=",
   "Source": "LanchesWill",
   "BasePath": "_content/LanchesWill",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carousel3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\cart-5-16.ico",
+      "SourceId": "LanchesWill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\",
+      "BasePath": "_content/LanchesWill",
+      "RelativePath": "images/cart-5-16.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cart-5-16.ico"
     },
     {
       "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\Envelope-icon24.png",
