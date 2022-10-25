@@ -2,6 +2,7 @@
 using LanchesWill.Models;
 using LanchesWill.Repositories;
 using LanchesWill.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace LanchesWill;
@@ -20,6 +21,10 @@ public class Startup
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         services.AddControllersWithViews();
+
+        services.AddIdentity<IdentityUser, IdentityRole>()
+            .AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
 
         services.AddTransient<ILancheRespository, LancheRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
@@ -52,14 +57,15 @@ public class Startup
         app.UseRouting();
         app.UseSession();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllerRoute(
-                name : "cartegoriaFiltro",
-                pattern : "Lanche/{action}/{categoria?}",
-                defaults: new { controller = "Lanche", action = "List"});
+                name: "cartegoriaFiltro",
+                pattern: "Lanche/{action}/{categoria?}",
+                defaults: new { controller = "Lanche", action = "List" });
 
             endpoints.MapControllerRoute(
                 name: "default",
