@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mO5+5NLHkWewqYOb4Ie58UlL+hlFCh5VKDwPOv8agoA=",
+  "Hash": "98fFxsyXNoyeBQJryJjG6W4vidDnx0/58jNUBZLgWrA=",
   "Source": "LanchesWill",
   "BasePath": "_content/LanchesWill",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home-iconred.png"
+    },
+    {
+      "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\login.jpeg",
+      "SourceId": "LanchesWill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\",
+      "BasePath": "_content/LanchesWill",
+      "RelativePath": "images/login.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\login.jpeg"
     },
     {
       "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\phone-app-icon.png",

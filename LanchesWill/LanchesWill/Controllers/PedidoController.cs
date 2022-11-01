@@ -1,5 +1,6 @@
 ﻿using LanchesWill.Models;
 using LanchesWill.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesWill.Controllers
@@ -16,11 +17,13 @@ namespace LanchesWill.Controllers
         }
 
 
+        [Authorize]
         public IActionResult Checkout()
         {
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Checkout(Pedido pedido)
         {
