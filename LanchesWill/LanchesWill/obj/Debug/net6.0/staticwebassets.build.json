@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "98fFxsyXNoyeBQJryJjG6W4vidDnx0/58jNUBZLgWrA=",
+  "Hash": "5S1Q/HZubLTSNBoQOyU0fAku89eYswcjvvcaYtNy8hQ=",
   "Source": "LanchesWill",
   "BasePath": "_content/LanchesWill",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\adminarea.jpg",
+      "SourceId": "LanchesWill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\",
+      "BasePath": "_content/LanchesWill",
+      "RelativePath": "images/adminarea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\adminarea.jpg"
     },
     {
       "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\carousel1.jpg",
@@ -236,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\login.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\negado.jpg",
+      "SourceId": "LanchesWill",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\",
+      "BasePath": "_content/LanchesWill",
+      "RelativePath": "images/negado.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\negado.jpg"
     },
     {
       "Identity": "C:\\Users\\Willian Martins\\Desktop\\ESTUDOS - VARIADOS\\PROJETOS\\PROJETOS\\LanchesWill\\LanchesWill\\wwwroot\\images\\phone-app-icon.png",

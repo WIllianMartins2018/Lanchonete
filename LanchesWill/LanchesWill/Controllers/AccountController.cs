@@ -67,8 +67,9 @@ namespace LanchesWill.Controllers
 
                 if (result.Succeeded)
                 {
+                    await _userManger.AddToRoleAsync(user, "Member");
                     return RedirectToAction("Login", "Account");
-                }
+                }   
                 else
                 {
                     this.ModelState.AddModelError("Registro", "Fala ao registrar Usuário");
@@ -85,5 +86,10 @@ namespace LanchesWill.Controllers
             await _singInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
+        } 
     } 
 }
